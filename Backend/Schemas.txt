@@ -1,0 +1,48 @@
+OAUTH = {
+    Provider,
+    Token
+}
+Customer = {
+    ID,
+    Name,
+    Email,
+    OAUTH
+    Vehicles = [List of VehicleIDs]
+}
+
+Vehicle = {
+    ID,
+    Make,
+    Model,
+    Year,
+    FuelType,
+    Transmission,
+    Color,
+    ImageURL,
+    Services = [List of ServiceIDs]
+}
+
+Service = {
+    ID,
+    Date,
+    Name
+    Type,
+    Services
+    Cost,
+    Notes
+}
+
+
+ServiceProvider = {
+    ID,
+    Name,
+    Email,
+    OAUTH 
+    Services = [List of ServiceIDs]
+}
+
+
+
+
+
+
